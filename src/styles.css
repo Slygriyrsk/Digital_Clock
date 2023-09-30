@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(20, 19, 19),
+    rgba(53, 51, 51, 0.689)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.heading {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.clock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.hour {
+  background-color: #fa4b42;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.minute {
+  background-color: #0ba572;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.second {
+  background-color: #c2e07a;
+  color: #fff;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.bottom-box {
+  background-color: hsl(282, 26%, 7%);
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bottom-content {
+  color: #f4f1fa;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
